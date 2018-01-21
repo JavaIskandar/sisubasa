@@ -1,5 +1,19 @@
 package com.example.iskandarjava.suratbebaslab.dummy;
 
+import android.widget.TextView;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.example.iskandarjava.suratbebaslab.R;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -17,6 +31,7 @@ public class DummyContent {
      * An array of sample (dummy) items.
      */
     public static final List<DummyItem> ITEMS = new ArrayList<DummyItem>();
+    public int in=0;
 
     /**
      * A map of sample (dummy) items, by ID.
@@ -27,6 +42,7 @@ public class DummyContent {
 
     static {
         // Add some sample items.
+
         for (int i = 1; i <= COUNT; i++) {
             addItem(createDummyItem(i));
         }
@@ -38,7 +54,7 @@ public class DummyContent {
     }
 
     private static DummyItem createDummyItem(int position) {
-        return new DummyItem(String.valueOf(position), "Nama Mahasiswa " + position, makeDetails(position));
+        return new DummyItem(String.valueOf(position), "Kasublab " + position, makeDetails(position));
     }
 
     private static String makeDetails(int position) {
