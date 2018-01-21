@@ -39,19 +39,23 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="15dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="15dp">
 
-                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         android:onClick="pengajuan"
                         android:text="Pengajuan surat"
-                        android:textSize="18sp"
-                        android:layout_marginBottom="8dp"
-                        android:textColor="@color/colorPrimary" />
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
 
-                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-                        android:textSize="12sp"
-                        android:text="Melakukan pengajuan surat bebas lab untuk pertam kali bagi mahasiswa yang membutuhkan"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Melakukan pengajuan surat bebas lab untuk pertam kali bagi mahasiswa yang membutuhkan"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 

@@ -22,7 +22,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
-        android:text="konfirm" />
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:text="confirm" />
 
     <Button
         android:id="@+id/button2"
@@ -31,5 +33,8 @@
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn_warning"
         android:text="batalkan" />
 </LinearLayout>
