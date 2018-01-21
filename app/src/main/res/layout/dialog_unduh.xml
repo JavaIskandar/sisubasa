@@ -9,7 +9,7 @@
         android:layout_marginBottom="20dp"
         android:background="@color/colorFt"
         android:padding="20dp"
-        android:text="Input Token!"
+        android:text="Masukkan Token Anda"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="18sp"
@@ -22,7 +22,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:padding="10dp"
+        android:background="@drawable/edit_text_full_radius_dark"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/unduh"
@@ -31,5 +33,8 @@
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
         android:text="unduh" />
 </LinearLayout>

@@ -6,51 +6,39 @@
     android:background="@drawable/item"
     android:elevation="2dp"
     android:gravity="center_vertical"
-    android:orientation="horizontal">
-
-    <!--<TextView-->
-        <!--android:id="@+id/id"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_margin="@dimen/text_margin"-->
-        <!--android:layout_weight="3"-->
-        <!--android:text="10"-->
-        <!--android:textAppearance="?attr/textAppearanceListItem" />-->
+    android:orientation="horizontal"
+    android:baselineAligned="false">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:padding="15dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="13dp"
-            android:layout_marginRight="13dp"
-            android:layout_marginTop="13dp"
+            android:text="Nama"
+            android:textSize="18sp"
             android:textAppearance="?attr/textAppearanceListItem" />
 
         <TextView
             android:id="@+id/nim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="13dp"
-            android:layout_marginRight="13dp"
-            android:layout_marginTop="13dp"
             android:text="15051204038"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
             android:textAppearance="?attr/textAppearanceListItem" />
 
         <TextView
             android:id="@+id/jurusan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="13dp"
-            android:layout_marginLeft="13dp"
-            android:layout_marginRight="13dp"
-            android:layout_marginTop="13dp"
             android:text="Teknik Informatika"
+            android:textSize="14sp"
             android:textAppearance="?attr/textAppearanceListItem" />
 
     </LinearLayout>
@@ -67,5 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:enabled="false" />
+
     </LinearLayout>
+
 </LinearLayout>
