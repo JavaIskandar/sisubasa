@@ -52,7 +52,6 @@ public class MyItemRecyclerViewAdapter extends RecyclerView.Adapter<MyItemRecycl
         holder.mContentView.setText(mValues.get(position).content);
         holder.mNim.setText(mValues.get(position).id);
 
-        holder.checkBox.setOnCheckedChangeListener(null);
 //        holder.checkBox.setChecked(objIncome.isSelected());
 //        holder.checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 //            @Override
@@ -102,14 +101,14 @@ public class MyItemRecyclerViewAdapter extends RecyclerView.Adapter<MyItemRecycl
         public final TextView mContentView;
         public final TextView mNim;
         public DummyItem mItem;
-        public final CheckBox checkBox;
 
         public ViewHolder(View view) {
             super(view);
             mView = view;
             mContentView = (TextView) view.findViewById(R.id.content);
             mNim= (TextView) view.findViewById(R.id.nim);
-            checkBox = (CheckBox)view.findViewById(R.id.checkBox);
+
+
             //this.setIsRecyclable(false);
         }
 

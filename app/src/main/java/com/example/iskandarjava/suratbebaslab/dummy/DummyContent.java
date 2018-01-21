@@ -54,7 +54,7 @@ public class DummyContent {
     }
 
     private static DummyItem createDummyItem(int position) {
-        return new DummyItem(String.valueOf(position), "Nama Mahasiswa " + position, makeDetails(position));
+        return new DummyItem(String.valueOf(position), "Kasublab " + position, makeDetails(position));
     }
 
     private static String makeDetails(int position) {
